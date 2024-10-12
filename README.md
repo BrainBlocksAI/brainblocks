@@ -8,19 +8,19 @@
 [mypy]: <http://mypy-lang.org>
 [mkdocs badge]: <https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat>
 [mkdocs]: <https://squidfunk.github.io/mkdocs-material>
-[version badge]: <https://img.shields.io/pypi/v/skorch-rl.svg>
-[pythonversion badge]: <https://img.shields.io/pypi/pyversions/skorch-rl.svg>
-[downloads badge]: <https://img.shields.io/pypi/dd/skorch-rl>
-[gitter]: <https://gitter.im/skorch-rl/community>
+[version badge]: <https://img.shields.io/pypi/v/brainblocks.svg>
+[pythonversion badge]: <https://img.shields.io/pypi/pyversions/brainblocks.svg>
+[downloads badge]: <https://img.shields.io/pypi/dd/brainblocks>
+[gitter]: <https://gitter.im/brainblocks/community>
 [gitter badge]: <https://badges.gitter.im/join%20chat.svg>
-[discussions]: <https://github.com/BrainBlocksAI/skorch-rl/discussions>
-[discussions badge]: <https://img.shields.io/github/discussions/BrainBlocksAI/skorch-rl>
-[ci]: <https://github.com/BrainBlocksAI/skorch-rl/actions?query=workflow>
-[ci badge]: <https://github.com/BrainBlocksAI/skorch-rl/actions/workflows/ci.yml/badge.svg?branch=main>
-[doc]: <https://github.com/BrainBlocksAI/skorch-rl/actions?query=workflow>
-[doc badge]: <https://github.com/BrainBlocksAI/skorch-rl/actions/workflows/doc.yml/badge.svg?branch=main>
+[discussions]: <https://github.com/BrainBlocksAI/brainblocks/discussions>
+[discussions badge]: <https://img.shields.io/github/discussions/BrainBlocksAI/brainblocks>
+[ci]: <https://github.com/BrainBlocksAI/brainblocks/actions?query=workflow>
+[ci badge]: <https://github.com/BrainBlocksAI/brainblocks/actions/workflows/ci.yml/badge.svg?branch=main>
+[doc]: <https://github.com/BrainBlocksAI/brainblocks/actions?query=workflow>
+[doc badge]: <https://github.com/BrainBlocksAI/brainblocks/actions/workflows/doc.yml/badge.svg?branch=main>
 
-# skorch-rl
+# brainblocks
 
 [![ci][ci badge]][ci] [![doc][doc badge]][doc]
 
@@ -36,24 +36,24 @@
 A Reinforcement Learning library that implements a range of classical RL, deep RL, and LLM-based RL algorithms. 
 
 It is designed to extend [skorch](https://skorch.readthedocs.io/) while maintaining the simplicity of
-[scikit-learn's](https://scikit-learn.org/) API. The library wraps [torchrl](https://pytorch.org/rl/) and leverages
+[scikit-learn's](https://scikit-learn.org/) API. The library wraps [torchrl](https://pytorch.org/rl/) and  and leverages
 [textgrad](https://github.com/huggingface/textgrad), [DSPy](https://github.com/darkprinx/dspy), and
 [DocArray](https://github.com/docarray/docarray) for enhanced functionality.
 
 ## Installation
 
-For user installation, `skorch-rl` is currently available on the PyPi's repository, and you can
+For user installation, `brainblocks` is currently available on the PyPi's repository, and you can
 install it via `pip`:
 
 ```bash
-pip install skorch-rl
+pip install brainblocks
 ```
 
 Development installation requires to clone the repository and then use [PDM](https://github.com/pdm-project/pdm) to install the
 project as well as the main and development dependencies:
 
 ```bash
-git clone https://github.com/BrainBlocksAI/skorch-rl.git
-cd skorch-rl
+git clone https://github.com/BrainBlocksAI/brainblocks.git
+cd brainblocks
 pdm install
 ```

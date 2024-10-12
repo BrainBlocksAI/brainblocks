@@ -1,4 +1,4 @@
-_commit: 0.10.0
+_commit: 0.11.0
 _src_path: gh:georgedouzas/copier-pdm-nox.git
 author_email: gdouzas@icloud.com
 author_fullname: Georgios Douzas
@@ -7,9 +7,11 @@ copyright_date: '2024'
 copyright_holder: Georgios Douzas
 copyright_holder_email: gdouzas@icloud.com
 copyright_license: MIT License
-project_description: A Reinforcement Learning library that implements a variety of classical RL, deep RL, and LLM-based RL algorithms.
-python_package_distribution_name: skorch-rl
-python_package_import_name: srl
+project_description: A Reinforcement Learning library that implements a variety of
+    classical RL, deep RL, and LLM-based RL algorithms.
+python_package_distribution_name: brainblocks
+python_package_import_name: brainblocks
 python_versions: '>=3.11, <3.13'
-repository_name: skorch-rl
+repository_name: brainblocks
 repository_namespace: BrainBlocksAI
+

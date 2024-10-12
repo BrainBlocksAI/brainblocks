@@ -3,7 +3,7 @@ requires = ["pdm-pep517"]
 build-backend = "pdm.pep517.api"
 
 [project]
-name = "skorch-rl"
+name = "brainblocks"
 description = "A Reinforcement Learning library that implements a variety of classical RL, deep RL, and LLM-based RL algorithms."
 authors = [{name = "Georgios Douzas", email = "gdouzas@icloud.com"}]
 license = "MIT"
@@ -33,13 +33,13 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://BrainBlocksAI.github.io/skorch-rl"
-Documentation = "https://BrainBlocksAI.github.io/skorch-rl"
-Changelog = "https://BrainBlocksAI.github.io/skorch-rl/changelog"
-Repository = "https://github.com/BrainBlocksAI/skorch-rl"
-Issues = "https://github.com/BrainBlocksAI/skorch-rl/issues"
-Discussions = "https://github.com/BrainBlocksAI/skorch-rl/discussions"
-Gitter = "https://gitter.im/skorch-rl/community"
+Homepage = "https://BrainBlocksAI.github.io/brainblocks"
+Documentation = "https://BrainBlocksAI.github.io/brainblocks"
+Changelog = "https://BrainBlocksAI.github.io/brainblocks/changelog"
+Repository = "https://github.com/BrainBlocksAI/brainblocks"
+Issues = "https://github.com/BrainBlocksAI/brainblocks/issues"
+Discussions = "https://github.com/BrainBlocksAI/brainblocks/discussions"
+Gitter = "https://gitter.im/brainblocks/community"
 Funding = "https://github.com/sponsors/BrainBlocksAI"
 
 [tool.pdm]

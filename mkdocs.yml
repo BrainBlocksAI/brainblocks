@@ -1,10 +1,10 @@
-site_name: "skorch-rl"
+site_name: "brainblocks"
 site_description: "A Reinforcement Learning library that implements a variety of classical RL, deep RL, and LLM-based RL algorithms."
-site_url: "https://BrainBlocksAI.github.io/skorch-rl"
-repo_url: "https://github.com/BrainBlocksAI/skorch-rl"
-repo_name: "BrainBlocksAI/skorch-rl"
+site_url: "https://BrainBlocksAI.github.io/brainblocks"
+repo_url: "https://github.com/BrainBlocksAI/brainblocks"
+repo_name: "BrainBlocksAI/brainblocks"
 site_dir: "site"
-watch: [README.md, CONTRIBUTING.md, CHANGELOG.md, src/srl]
+watch: [README.md, CONTRIBUTING.md, CHANGELOG.md, src/brainblocks]
 
 theme:
   name: material
