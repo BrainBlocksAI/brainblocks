@@ -33,12 +33,12 @@
 
 ## Introduction
 
-A Reinforcement Learning library that implements a range of classical RL, deep RL, and LLM-based RL algorithms. 
+A Reinforcement Learning library that implements a range of classical, deep, and LLM-based RL algorithms. 
 
-It is designed to extend [skorch](https://skorch.readthedocs.io/) while maintaining the simplicity of
-[scikit-learn's](https://scikit-learn.org/) API. The library wraps [torchrl](https://pytorch.org/rl/) and  and leverages
+It mimics the simplicity of [scikit-learn's](https://scikit-learn.org/) API and integrates with the
+[torchrl](https://pytorch.org/rl/) and [Tianshou](https://tianshou.org/en/stable/) RL libraries. It also leverages
 [textgrad](https://github.com/huggingface/textgrad), [DSPy](https://github.com/darkprinx/dspy), and
-[DocArray](https://github.com/docarray/docarray) for enhanced functionality.
+[DocArray](https://github.com/docarray/docarray) to support the implementation LLM-based agent development.
 
 ## Installation
 
