@@ -57,6 +57,7 @@ def load_env_data(
     n_eval_envs: int | None = None,
     n_test_envs: int | None = None,
     vectorizer: VECTORIZERS | None = None,
+    backend: Literal['gymnasium', 'tianshou'] | None = None,
 ) -> tuple[gym.Env, gym.Env | None, gym.Env | None]:
     version, vectorizer_class = _check_loading(name, version, n_envs, n_eval_envs, n_test_envs, vectorizer)
     base_env = gym.make(f'{name}-{version}')

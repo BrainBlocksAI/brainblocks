@@ -26,7 +26,9 @@ classifiers = [
 ]
 dependencies = [
     "scikit-learn>=1.5.2",
-    "tianshou>=1.1.0",
+    "tianshou @ git+https://github.com/thu-ml/tianshou.git@master",
+    "moviepy>=1.0.3",
+    "rich>=13.9.4",
 ]
 
 [project.urls]

@@ -38,7 +38,7 @@ A Reinforcement Learning library that implements a range of classical, deep, and
 It mimics the simplicity of [scikit-learn's](https://scikit-learn.org/) API and integrates with the
 [Tianshou](https://tianshou.org/en/stable/) RL library. It also leverages
 [textgrad](https://github.com/huggingface/textgrad), [DSPy](https://github.com/darkprinx/dspy), and
-[DocArray](https://github.com/docarray/docarray) to support the implementation LLM-based agent development.
+[DocArray](https://github.com/docarray/docarray) to support the implementation LLM-based agents.
 
 ## Installation
 
